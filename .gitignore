@@ -1,0 +1,28 @@
+# Ignore virtual environment
+venv/
+env/
+myenv/
+# Ignore local development settings
+*.sqlite3
+*.pyc
+*.pyo
+
+# Ignore environment variables
+.env
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore pycache
+__pycache__/
+
+# Ignore local test database
+db.sqlite3
+
+# Ignore logs
+*.log
+
+# Ignore static and media files
+staticfiles/
+media/
